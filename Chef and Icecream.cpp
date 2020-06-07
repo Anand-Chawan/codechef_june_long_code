@@ -7,7 +7,7 @@ Initially, Chef has no money. He wants to know if he can sell icecream to everyo
 Input
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
 The first line of each test case contains a single integer N.
-The second line contains N space-separated integers a1,a2,…,aN.
+The second line contains N space-separated integers a1,a2,â€¦,aN.
 Output
 For each test case, print a single line containing the string "YES" if all people can be served or "NO" otherwise (without quotes).
 
@@ -80,7 +80,9 @@ int main()
 					five-=2;fif++;
 				}
 				else
-				fif++;
+				{
+					fif++;ten--;
+				}
 			}
 		}
 		if(flag)
