@@ -66,3 +66,26 @@ int main()
 		}
 	}
 }
+
+
+
+
+
+or
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+#define ll unsigned long long
+int main()
+{
+  ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+  int t;cin>>t;while(t--)
+  {
+    ll n;
+    cin>>n;
+    ll res=(n&-n)<<1;
+    cout<<n/res<<"\n";
+  }
+}
